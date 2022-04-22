@@ -1,0 +1,40 @@
+.curso-li {
+    display: flex;
+    align-content: center;
+    padding: 10px 0 0 15px;
+    gap: 10px;
+    min-height: 68px;
+}
+
+.curso-li:hover{
+    transition: 0.15s ease-in;
+    cursor: pointer;
+    background-color: #ddd;
+}
+
+.curso-li .imagem-block {
+    background-color: #333;
+    height: 50px;
+    min-width: 50px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.curso-li img {
+    height: 100%;
+    width: 100%;
+}
+
+.curso-li .info-block {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.data {
+    color: #777;
+}

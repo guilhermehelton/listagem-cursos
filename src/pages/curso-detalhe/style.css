@@ -1,0 +1,64 @@
+.detalhes-section {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.body-detalhes {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 20px;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+
+.descricao {
+    display: flex;
+    gap: 15px;
+}
+
+.descricao img {
+    width: 50px;
+    height: 50px;
+}
+
+.descricao-detalhes {
+    display: flex;
+    flex-direction: column;
+    color: #777;
+}
+
+.block-realizacao, .block-carga-horaria {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.icon-wrapper {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-cinza {
+    color: #777;
+}
+
+.block-conteudo ul {
+    list-style: none;
+    margin: 0;
+}
+
+.block-conteudo li {
+    margin-top: 15px;
+}
+
+.gg-close:hover {
+    transition: 0.10s ease-in;
+    background-color: #63a3e4;
+    cursor: pointer;
+}

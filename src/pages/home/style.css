@@ -1,0 +1,40 @@
+.home-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 1fr;
+    row-gap: 1rem;
+}
+
+.lista-section {
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    width: 80%;
+}
+
+.lista-section span {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: #09539c;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 0.5rem;
+    padding: 0 2.5rem 0.5rem 2.5rem;
+}
+
+.lista-section .concluidos {
+    border-bottom: 2px solid #09539c;
+}
+
+.lista-cursos {
+    justify-self: center;
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+    width: 90%;
+    background-color: #eee;
+}
+
+
